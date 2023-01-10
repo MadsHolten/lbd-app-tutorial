@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --baseHref https://madsholten.github.io/lbd-app-tutorial/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "publish:demo": "git subtree push --prefix dist/my-bim-app origin gh-pages"
